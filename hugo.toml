@@ -1,4 +1,4 @@
-baseURL = 'koolsing.pages.dev'
+baseURL = 'https://koolsing.pages.dev'
 locale = 'en-us'
 title = 'Kuldeep Singh'
 theme = 'PaperMod'

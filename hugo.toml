@@ -1,3 +1,4 @@
 baseURL = 'https://myblog-edz.pages.dev'
 locale = 'en-us'
 title = 'My New Hugo Project'
+theme = 'PaperMod'

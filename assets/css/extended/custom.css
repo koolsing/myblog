@@ -11,6 +11,7 @@
 body {
   font-family: 'JetBrains Mono', 'Fira Code', monospace;
   font-size: 16px;
+  line-height: 1.6;
 }
 
 /* Blue titles */
@@ -18,12 +19,40 @@ body {
   color: #60a5fa;
 }
 
-/* CRITICAL: Show article boxes for all posts */
+h1 { font-size: 32px; margin-bottom: 16px; }
+h2 { font-size: 24px; }
+
+/* FORCE boxes visible */
+.posts {
+  display: grid !important;
+}
+
 .post-entry {
   display: block !important;
-  background: var(--entry);
-  padding: 16px;
-  margin-bottom: 20px;
-  border-radius: 8px;
-  border: 1px solid var(--border);
+  background: var(--entry) !important;
+  padding: 20px !important;
+  margin-bottom: 24px !important;
+  border-radius: 8px !important;
+  border: 1px solid var(--border) !important;
+}
+
+.post-entry:hover {
+  background: #212d3e !important;
+}
+
+.post-title {
+  font-size: 24px !important;
+  margin-bottom: 12px !important;
+}
+
+/* Hide metadata footer */
+.post-entry .entry-footer {
+  display: none !important;
+}
+
+/* Description (TL;DR) styling */
+.post-entry p {
+  color: var(--content);
+  margin: 0 !important;
+  font-size: 14px !important;
 }

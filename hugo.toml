@@ -6,6 +6,7 @@ theme = 'PaperMod'
 [params]
   googleAnalytics = ""
    defaultTheme = "dark"
+   disableThemeToggle = true 
   showReadingTime = false
   ShowBreadCrumbs = false
   ShowCodeCopyButtons = true

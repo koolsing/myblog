@@ -17,10 +17,17 @@ body {
 }
 
 /* Site Logo/Name */
-.logo a, header .logo {
-  font-size: 27px !important;
-  font-weight: 500 !important;
-  color: #ffffff !important;
+/* Align icon and logo text */
+.logo {
+    display: flex !important;
+    align-items: center !important;
+    gap: 10px !important; /* Space between icon and name */
+}
+
+.logo img {
+    display: inline-block !important;
+    vertical-align: middle !important;
+    margin: 0 !important;
 }
 
 /* HOME PAGE ARTICLE TITLES - Unbolded and 20px */

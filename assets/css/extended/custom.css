@@ -16,18 +16,32 @@ body {
   background-color: #1a2f45;
 }
 
+/* Site Logo/Name */
 .logo a, header .logo {
   font-size: 24px !important;
   font-weight: 700 !important;
   color: #ffffff !important;
 }
 
-/* ARTICLE CONTAINERS - Tighter vertical flow */
+/* ARTICLE TITLES - Unified 22px for Home and Post pages */
+h1, 
+.post-single h1,
+h2.entry-hint-parent,
+.first-entry h2.entry-hint-parent,
+.post-entry h2.entry-hint-parent {
+  color: #f47b85 !important;
+  font-size: 22px !important; 
+  font-weight: 600 !important;
+  margin: 0 0 2px 0 !important;
+  line-height: 1.2 !important;
+}
+
+/* ARTICLE CONTAINERS - The "Unboxed" List View */
 .post-entry,
 .first-entry {
   display: block !important;
   background: transparent !important;
-  padding: 16px 0 !important; /* Reduced padding from 24px */
+  padding: 16px 0 !important; 
   margin: 0 !important;
   border: none !important;
   border-bottom: 1px solid #1e3a5f !important;
@@ -39,56 +53,46 @@ body {
   border-bottom: none !important;
 }
 
-/* ARTICLE TITLES - Slightly larger to maintain hierarchy */
-h2.entry-hint-parent,
-.first-entry h2.entry-hint-parent,
-.post-entry h2.entry-hint-parent {
-  color: #f47b85 !important;
-  font-size: 21px !important; /* Bumped up from 19px */
-  font-weight: 500 !important;
-  margin: 0 0 2px 0 !important;
-  line-height: 1.2 !important;
-}
-
-/* HOVER LOGIC */
+/* HOVER LOGIC - Underline for all instances */
 .post-entry:hover h2.entry-hint-parent,
 .first-entry:hover h2.entry-hint-parent {
   text-decoration: underline !important;
   cursor: pointer !important;
 }
 
-/* DESCRIPTION / SUMMARY - Matching steipete.me weight */
+/* DESCRIPTION / SUMMARY - Large and Weighted */
 .entry-content,
 .post-entry p,
 .first-entry p {
   color: #ccddee !important;
-  font-size: 17px !important; /* Bumped up from 14px to match his body size */
+  font-size: 17px !important; 
   margin: 4px 0 !important;
-  line-height: 1.5 !important; /* Increased for better readability at larger sizes */
-  max-width: 750px;
+  line-height: 1.5 !important;
+  max-width: 800px;
   font-weight: 400 !important;
 }
 
-/* FOOTER (Date & Reading Time) */
+/* FOOTER - Tight meta data (Date & Reading Time) */
 .post-entry .entry-footer,
 .first-entry .entry-footer {
   display: flex !important;
-  gap: 12px !important;
+  gap: 15px !important;
   color: #8899aa !important;
-  font-size: 13px !important; /* Slightly larger meta text */
-  margin-top: 6px !important;
+  font-size: 13px !important;
+  margin-top: 4px !important;
 }
 
-/* ARTICLE PAGE STYLING */
-h1, article h1, .post-single h1 {
-  color: #f47b85 !important;
-  font-size: 24px !important;
-  font-weight: 600 !important;
-}
-
-p, li, td, blockquote {
+/* INTERNAL ARTICLE TYPOGRAPHY */
+article h2, article h3 {
   color: #ffffff !important;
-  font-size: 16px !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  margin-top: 24px !important;
+  margin-bottom: 8px !important;
+}
+
+.post-content p, .post-content li {
+  font-size: 17px !important;
   line-height: 1.6 !important;
 }
 
@@ -97,8 +101,10 @@ code, pre {
   background: #0a1628 !important;
   padding: 2px 4px;
   border-radius: 4px;
+  font-family: Menlo, Monaco, monospace !important;
 }
 
+/* Clean up theme lines */
 main hr, .main hr {
   display: none !important;
 }

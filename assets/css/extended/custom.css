@@ -1,4 +1,4 @@
-/* Override PaperMod dark theme variables */
+:root,
 :root[data-theme=dark] {
   --theme: #0d1f33 !important;
   --entry: #112240 !important;
@@ -6,15 +6,6 @@
   --content: #ffffff !important;
   --border: #1e3a5f !important;
   --secondary: #8899aa !important;
-}
-
-:root {
-  --theme: #0d1f33;
-  --entry: #112240;
-  --primary: #ffffff;
-  --content: #ffffff;
-  --border: #1e3a5f;
-  --secondary: #8899aa;
 }
 
 body {
@@ -31,22 +22,19 @@ body {
   color: #ffffff !important;
 }
 
-/* HOME PAGE - article title */
-.post-entry .post-title a,
-.post-entry h2 a {
+/* HOME PAGE - title is h2 directly, not h2 a */
+.post-entry .post-title,
+.post-entry h2.post-title {
   color: #f47b85 !important;
   font-size: 18px !important;
   font-weight: 400 !important;
-  text-decoration: none !important;
 }
 
-.post-entry .post-title a:hover,
-.post-entry h2 a:hover {
+.post-entry:hover .post-title {
   text-decoration: underline !important;
-  color: #f47b85 !important;
 }
 
-/* ARTICLE PAGE - h1 title */
+/* ARTICLE PAGE - h1 */
 h1,
 article h1,
 .post-single h1 {
@@ -82,7 +70,7 @@ code, pre {
   font-family: Menlo, Monaco, monospace !important;
 }
 
-/* Article boxes on homepage */
+/* Article boxes */
 .post-entry {
   display: block !important;
   background: #112240 !important;
@@ -90,13 +78,14 @@ code, pre {
   margin-bottom: 16px !important;
   border-radius: 6px !important;
   border: 1px solid #1e3a5f !important;
+  position: relative !important;
 }
 
 .post-entry:hover {
   background: #152a4a !important;
 }
 
-/* Date - muted, small */
+/* Date */
 .post-entry .entry-footer {
   display: block !important;
   color: #8899aa !important;
@@ -104,12 +93,11 @@ code, pre {
   margin: 6px 0 !important;
 }
 
-/* Hide reading time, keep date only */
 .post-entry .entry-footer span:not(:first-child) {
   display: none !important;
 }
 
-/* TL;DR description */
+/* TL;DR */
 .entry-content,
 .post-entry p {
   color: #ccddee !important;

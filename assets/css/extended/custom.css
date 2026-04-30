@@ -38,7 +38,7 @@ h2.entry-hint-parent,
 .post-single h1.post-title, 
 article.post-single h1 {
   color: #f47b85 !important;
-  font-size: 26px !important; 
+  font-size: 28px !important; 
   font-weight: 600 !important;
   margin: 0 0 4px 0 !important;
   line-height: 1.2 !important;
@@ -93,7 +93,7 @@ article.post-single h1 {
 article h2, article h3 {
   color: #ffffff !important;
   font-size: 17px !important;
-  font-weight: 500 !important;
+  font-weight: 600 !important;
   margin-top: 20px !important;
   margin-bottom: 6px !important;
 }

@@ -76,10 +76,18 @@ h2.entry-hint-parent,
   margin-top: 8px !important;
 }
 
-/* Hide reading time */
-.post-entry .entry-footer span:not(:first-child),
-.first-entry .entry-footer span:not(:first-child) {
-  display: none !important;
+/* This allows the date AND reading time to breathe */
+.post-entry .entry-footer,
+.first-entry .entry-footer {
+  display: flex !important;
+  gap: 10px !important; /* Adds space between date and reading time */
+  color: #8899aa !important;
+  font-size: 12px !important;
+}
+
+.post-entry .entry-footer span,
+.first-entry .entry-footer span {
+  display: inline !important;
 }
 
 /* Content/Description */

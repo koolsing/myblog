@@ -104,3 +104,9 @@ code, pre {
   font-size: 14px !important;
   margin: 0 !important;
 }
+
+/* Remove hr line after posts */
+main hr,
+.main hr {
+  display: none !important;
+}

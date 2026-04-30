@@ -1,6 +1,5 @@
 :root,
 :root[data-theme=dark] {
-  /* BG color */
   --theme: #1a2f45 !important;   
   --entry: #0a1628 !important;
   --primary: #ffffff !important;
@@ -31,11 +30,13 @@ h2.entry-hint-parent {
 }
 
 /* Force underline on hover */
-.post-entry h2.entry-hint-parent {
+.post-entry h2.entry-hint-parent,
+.first-entry h2.entry-hint-parent {
   transition: text-decoration 0.2s ease;
 }
 
-.post-entry:hover h2.entry-hint-parent {
+.post-entry:hover h2.entry-hint-parent,
+.first-entry:hover h2.entry-hint-parent {
   text-decoration: underline !important;
   cursor: pointer !important;
 }
@@ -76,23 +77,26 @@ code, pre {
   font-family: Menlo, Monaco, monospace !important;
 }
 
-/* Article boxes */
-.post-entry {
+/* Article boxes - all posts */
+.post-entry,
+.first-entry {
   display: block !important;
   background: #0a1628 !important;
   padding: 16px 20px !important;
-  margin-bottom: 16px !important;
+  margin-bottom: 8px !important;
   border-radius: 6px !important;
   border: 1px solid #1e3a5f !important;
   position: relative !important;
 }
 
-.post-entry:hover {
+.post-entry:hover,
+.first-entry:hover {
   background: #0d1e35 !important;
 }
 
 /* Date */
-.post-entry .entry-footer {
+.post-entry .entry-footer,
+.first-entry .entry-footer {
   display: block !important;
   color: #8899aa !important;
   font-size: 12px !important;
@@ -100,13 +104,15 @@ code, pre {
 }
 
 /* Hide reading time, keep date only */
-.post-entry .entry-footer span:not(:first-child) {
+.post-entry .entry-footer span:not(:first-child),
+.first-entry .entry-footer span:not(:first-child) {
   display: none !important;
 }
 
 /* TL;DR description */
 .entry-content,
-.post-entry p {
+.post-entry p,
+.first-entry p {
   color: #ccddee !important;
   font-size: 14px !important;
   margin: 0 !important;

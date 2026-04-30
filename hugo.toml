@@ -16,10 +16,10 @@ theme = 'PaperMod'
   # The Header Logo configuration
   [params.label]
     text = "Kuldeep Singh"
-    icon = "/blog-icon.png"  # Ensure this file is in your /static folder
+    icon = "/blog-icon.PNG"  # Ensure this file is in your /static folder
     iconHeight = 30
     iconWidth = 30
 
   # The Browser Tab Icon configuration
   [params.assets]
-    favicon = "/blog-icon.png"
+    favicon = "/blog-icon.PNG"

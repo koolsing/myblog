@@ -10,3 +10,4 @@ theme = 'PaperMod'
   showReadingTime = false
   ShowBreadCrumbs = false
   ShowCodeCopyButtons = true
+  disableSpecialLargeFirstPost = true

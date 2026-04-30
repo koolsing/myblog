@@ -1,7 +1,7 @@
 +++
 date = '2026-04-27T07:59:32-04:00'
 draft = false
-title = 'Second post'
+title = 'Third post'
 
 description = "Step by step guide to deploying a Hugo blog on Cloudflare Pages for free."
 

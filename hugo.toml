@@ -13,12 +13,6 @@ theme = 'PaperMod'
   disableSpecialLargeFirstPost = true
   showDescription = true
 
-  # The Header Logo configuration
-  [params.label]
-    text = "Kuldeep Singh"
-    icon = "/blog-icon.PNG"  # Ensure this file is in your /static folder
-    iconHeight = 30
-    iconWidth = 30
 
   # The Browser Tab Icon configuration
   [params.assets]

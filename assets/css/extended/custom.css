@@ -1,15 +1,15 @@
 :root {
-  --theme: #0f1419;
+  --theme: #0d1b2a;
   --entry: #1a2332;
   --primary: #ffffff;
   --content: #ffffff;
   --border: #2d3e52;
-  --secondary: #ffffff;
+  --secondary: #aaaaaa;
 }
 
 body {
-  font-family: 'JetBrains Mono', 'Fira Code', monospace;
-  font-size: 16px;
+  font-family: Menlo, Monaco, 'Courier New', monospace;
+  font-size: 18px;
   line-height: 1.7;
   color: #ffffff;
 }
@@ -18,33 +18,39 @@ body {
 .post-title a {
   color: #f47b85 !important;
   font-size: 22px !important;
+  font-weight: 400 !important;
+  text-decoration: none !important;
 }
 
-/* Article title on ARTICLE page (h1) */
+.post-title a:hover {
+  text-decoration: underline !important;
+}
+
+/* Article title on ARTICLE page */
 h1 {
   color: #f47b85 !important;
   font-size: 28px !important;
-  font-weight: 700 !important;
+  font-weight: 400 !important;
 }
 
-/* Subheadings inside article */
+/* Subheadings */
 h2 {
   color: #ffffff !important;
   font-size: 20px !important;
-  font-weight: 600 !important;
 }
 
 h3 {
   color: #ffffff !important;
-  font-size: 17px !important;
+  font-size: 18px !important;
 }
 
-/* All body text white */
-p, li, td, blockquote {
+/* Body text */
+p, li, td, blockquote, code {
   color: #ffffff !important;
+  font-size: 18px !important;
 }
 
-/* Article boxes on homepage */
+/* Article boxes */
 .post-entry {
   display: block !important;
   background: #1a2332 !important;
@@ -58,13 +64,22 @@ p, li, td, blockquote {
   background: #1f2b3e !important;
 }
 
-/* Hide date/read time footer in boxes */
+/* Show date, hide reading time */
 .post-entry .entry-footer {
+  display: block !important;
+  color: #aaaaaa !important;
+  font-size: 14px !important;
+  margin-top: 8px !important;
+  margin-bottom: 8px !important;
+}
+
+.post-entry .entry-footer span:not(:first-child) {
   display: none !important;
 }
 
-/* Description text in boxes */
+/* Description/TL;DR */
 .entry-content {
   color: #ffffff !important;
-  font-size: 14px !important;
+  font-size: 16px !important;
+  margin-top: 8px !important;
 }

@@ -1,7 +1,7 @@
 :root,
 :root[data-theme=dark] {
   /* BG color */
-  --theme: #050e1a !important;   
+  --theme: #1a2f45 !important;   
   --entry: #0a1628 !important;
   --primary: #ffffff !important;
   --content: #ffffff !important;

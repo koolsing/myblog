@@ -1,103 +1,94 @@
 :root,
 :root[data-theme=dark] {
   --theme: #1a2f45 !important;   
-  --entry: transparent !important; /* Make container transparent */
+  --entry: transparent !important;
   --primary: #ffffff !important;
   --content: #ffffff !important;
-  --border: transparent !important; /* Kill the borders */
+  --border: transparent !important;
   --secondary: #8899aa !important;
 }
 
 body {
   font-family: Menlo, Monaco, 'Courier New', monospace;
   font-size: 16px;
-  line-height: 1.65;
+  line-height: 1.6;
   color: #ffffff;
-  background-color: #1a2f45; /* Matches your theme color */
+  background-color: #1a2f45;
 }
 
-/* Site name */
 .logo a, header .logo {
   font-size: 24px !important;
   font-weight: 700 !important;
   color: #ffffff !important;
 }
 
-/* ARTICLE TITLES - Clean and flat */
-h2.entry-hint-parent,
-.first-entry h2.entry-hint-parent,
-.post-entry h2.entry-hint-parent {
-  color: #f47b85 !important;
-  font-size: 20px !important; /* Slightly larger for the "list" look */
-  font-weight: 500 !important;
-  margin: 0 0 4px 0 !important;
-}
-
-/* ARTICLE CONTAINERS - The "Unboxing" */
+/* ARTICLE CONTAINERS - Tighter vertical flow */
 .post-entry,
 .first-entry {
   display: block !important;
-  background: transparent !important; /* Remove the box background */
-  padding: 24px 0 !important; /* Vertical spacing only, no internal padding */
-  margin-bottom: 0 !important;
-  border-radius: 0 !important;
-  border: none !important; /* Remove the border */
-  border-bottom: 1px solid #1e3a5f !important; /* Optional: subtle separator line */
+  background: transparent !important;
+  padding: 16px 0 !important; /* Reduced padding from 24px */
+  margin: 0 !important;
+  border: none !important;
+  border-bottom: 1px solid #1e3a5f !important;
   position: relative !important;
   min-height: auto !important;
 }
 
-/* Remove the border from the very last item for a cleaner look */
 .post-entry:last-of-type {
   border-bottom: none !important;
 }
 
-/* Fix: Apply underline to BOTH standard and first entry titles on hover */
+/* ARTICLE TITLES - Reduced bottom margin */
+h2.entry-hint-parent,
+.first-entry h2.entry-hint-parent,
+.post-entry h2.entry-hint-parent {
+  color: #f47b85 !important;
+  font-size: 19px !important;
+  font-weight: 500 !important;
+  margin: 0 0 2px 0 !important; /* Tightened gap to summary */
+  line-height: 1.2 !important;
+}
+
+/* HOVER LOGIC */
 .post-entry:hover h2.entry-hint-parent,
 .first-entry:hover h2.entry-hint-parent {
   text-decoration: underline !important;
   cursor: pointer !important;
 }
 
-/* Ensure transition is smooth for both */
-.post-entry h2.entry-hint-parent,
-.first-entry h2.entry-hint-parent {
-  transition: text-decoration 0.2s ease;
-}
-
-/* TL;DR / Summary Text */
+/* DESCRIPTION / SUMMARY - Reduced vertical margins */
 .entry-content,
 .post-entry p,
 .first-entry p {
   color: #ccddee !important;
-  font-size: 15px !important;
-  margin: 8px 0 !important;
-  line-height: 1.6 !important;
-  max-width: 800px; /* Keeps text readable */
+  font-size: 14px !important;
+  margin: 0 !important; /* Removed top/bottom margin */
+  line-height: 1.4 !important;
+  max-width: 800px;
 }
 
-/* Footer / Meta Data (Date & Reading Time) */
+/* FOOTER (Date & Reading Time) - Tighter gap to description */
 .post-entry .entry-footer,
 .first-entry .entry-footer {
   display: flex !important;
-  gap: 15px !important;
+  gap: 12px !important;
   color: #8899aa !important;
-  font-size: 13px !important;
-  margin-top: 8px !important;
+  font-size: 12px !important;
+  margin-top: 4px !important; /* Minimal gap from summary */
 }
 
-/* Header/Article Page Consistency */
+/* ARTICLE PAGE STYLING */
 h1, article h1, .post-single h1 {
   color: #f47b85 !important;
-  font-size: 26px !important;
+  font-size: 24px !important;
   font-weight: 600 !important;
 }
 
-/* Global Typography */
 p, li, td, blockquote {
   color: #ffffff !important;
   font-size: 16px !important;
-  line-height: 1.65 !important;
+  line-height: 1.6 !important;
 }
 
 code, pre {
@@ -107,7 +98,6 @@ code, pre {
   border-radius: 4px;
 }
 
-/* Remove Hugo's default HR lines */
 main hr, .main hr {
   display: none !important;
 }

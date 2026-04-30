@@ -39,14 +39,14 @@ body {
   border-bottom: none !important;
 }
 
-/* ARTICLE TITLES - Reduced bottom margin */
+/* ARTICLE TITLES - Slightly larger to maintain hierarchy */
 h2.entry-hint-parent,
 .first-entry h2.entry-hint-parent,
 .post-entry h2.entry-hint-parent {
   color: #f47b85 !important;
-  font-size: 19px !important;
+  font-size: 21px !important; /* Bumped up from 19px */
   font-weight: 500 !important;
-  margin: 0 0 2px 0 !important; /* Tightened gap to summary */
+  margin: 0 0 2px 0 !important;
   line-height: 1.2 !important;
 }
 
@@ -57,25 +57,26 @@ h2.entry-hint-parent,
   cursor: pointer !important;
 }
 
-/* DESCRIPTION / SUMMARY - Reduced vertical margins */
+/* DESCRIPTION / SUMMARY - Matching steipete.me weight */
 .entry-content,
 .post-entry p,
 .first-entry p {
   color: #ccddee !important;
-  font-size: 14px !important;
-  margin: 0 !important; /* Removed top/bottom margin */
-  line-height: 1.4 !important;
-  max-width: 800px;
+  font-size: 17px !important; /* Bumped up from 14px to match his body size */
+  margin: 4px 0 !important;
+  line-height: 1.5 !important; /* Increased for better readability at larger sizes */
+  max-width: 750px;
+  font-weight: 400 !important;
 }
 
-/* FOOTER (Date & Reading Time) - Tighter gap to description */
+/* FOOTER (Date & Reading Time) */
 .post-entry .entry-footer,
 .first-entry .entry-footer {
   display: flex !important;
   gap: 12px !important;
   color: #8899aa !important;
-  font-size: 12px !important;
-  margin-top: 4px !important; /* Minimal gap from summary */
+  font-size: 13px !important; /* Slightly larger meta text */
+  margin-top: 6px !important;
 }
 
 /* ARTICLE PAGE STYLING */

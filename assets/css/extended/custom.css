@@ -26,7 +26,7 @@ body {
 /* ARTICLE TITLE ON HOMEPAGE - correct selector */
 h2.entry-hint-parent {
   color: #f47b85 !important;
-  font-size: 18px !important;
+  font-size: 19px !important;
   font-weight: 400 !important;
 }
 

@@ -10,8 +10,8 @@
 
 body {
   font-family: Menlo, Monaco, 'Courier New', monospace;
-  font-size: 16px;
-  line-height: 1.6;
+  font-size: 15.5px; /* Reduced by 0.5pt */
+  line-height: 1.5 !important; /* Decreased line-height */
   color: #ffffff;
   background-color: #1a2f45;
 }
@@ -23,25 +23,25 @@ body {
   color: #ffffff !important;
 }
 
-/* ARTICLE TITLES - Unified 22px for Home and Post pages */
+/* ARTICLE TITLES - Unbolded and reduced by 1pt (now 21px) */
 h1, 
 .post-single h1,
 h2.entry-hint-parent,
 .first-entry h2.entry-hint-parent,
 .post-entry h2.entry-hint-parent {
   color: #f47b85 !important;
-  font-size: 22px !important; 
-  font-weight: 600 !important;
-  margin: 0 0 2px 0 !important;
-  line-height: 1.2 !important;
+  font-size: 21px !important; 
+  font-weight: 400 !important; /* Removed bold */
+  margin: 0 0 1px 0 !important; /* Tighter gap to summary */
+  line-height: 1.1 !important; /* Tightened line-height */
 }
 
-/* ARTICLE CONTAINERS - The "Unboxed" List View */
+/* ARTICLE CONTAINERS - List View */
 .post-entry,
 .first-entry {
   display: block !important;
   background: transparent !important;
-  padding: 16px 0 !important; 
+  padding: 12px 0 !important; /* Reduced vertical padding */
   margin: 0 !important;
   border: none !important;
   border-bottom: 1px solid #1e3a5f !important;
@@ -53,47 +53,46 @@ h2.entry-hint-parent,
   border-bottom: none !important;
 }
 
-/* HOVER LOGIC - Underline for all instances */
+/* HOVER LOGIC */
 .post-entry:hover h2.entry-hint-parent,
 .first-entry:hover h2.entry-hint-parent {
   text-decoration: underline !important;
-  cursor: pointer !important;
 }
 
-/* DESCRIPTION / SUMMARY - Large and Weighted */
+/* DESCRIPTION / SUMMARY - Matching Body size reduction */
 .entry-content,
 .post-entry p,
 .first-entry p {
   color: #ccddee !important;
-  font-size: 17px !important; 
-  margin: 4px 0 !important;
-  line-height: 1.5 !important;
+  font-size: 16.5px !important; /* Reduced by 0.5pt */
+  margin: 2px 0 !important; /* Tightened vertical gap */
+  line-height: 1.4 !important; /* Tightened line-height */
   max-width: 800px;
   font-weight: 400 !important;
 }
 
-/* FOOTER - Tight meta data (Date & Reading Time) */
+/* FOOTER - Tight meta data */
 .post-entry .entry-footer,
 .first-entry .entry-footer {
   display: flex !important;
-  gap: 15px !important;
+  gap: 12px !important;
   color: #8899aa !important;
-  font-size: 13px !important;
-  margin-top: 4px !important;
+  font-size: 12px !important;
+  margin-top: 2px !important; /* Minimal gap */
 }
 
 /* INTERNAL ARTICLE TYPOGRAPHY */
 article h2, article h3 {
   color: #ffffff !important;
-  font-size: 18px !important;
-  font-weight: 600 !important;
-  margin-top: 24px !important;
-  margin-bottom: 8px !important;
+  font-size: 17px !important;
+  font-weight: 500 !important;
+  margin-top: 20px !important;
+  margin-bottom: 6px !important;
 }
 
 .post-content p, .post-content li {
-  font-size: 17px !important;
-  line-height: 1.6 !important;
+  font-size: 16.5px !important; /* Reduced body text by 0.5pt */
+  line-height: 1.5 !important; /* Tightened body line-height */
 }
 
 code, pre {
@@ -104,7 +103,6 @@ code, pre {
   font-family: Menlo, Monaco, monospace !important;
 }
 
-/* Clean up theme lines */
 main hr, .main hr {
   display: none !important;
 }

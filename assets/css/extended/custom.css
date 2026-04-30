@@ -52,14 +52,17 @@ h2.entry-hint-parent,
   border-bottom: none !important;
 }
 
-.post-entry:hover,
-.first-entry:hover {
-  background: transparent !important; /* Keep it flat on hover */
+/* Fix: Apply underline to BOTH standard and first entry titles on hover */
+.post-entry:hover h2.entry-hint-parent,
+.first-entry:hover h2.entry-hint-parent {
+  text-decoration: underline !important;
+  cursor: pointer !important;
 }
 
-/* Hover effect on title only */
-.post-entry:hover h2.entry-hint-parent {
-  text-decoration: underline !important;
+/* Ensure transition is smooth for both */
+.post-entry h2.entry-hint-parent,
+.first-entry h2.entry-hint-parent {
+  transition: text-decoration 0.2s ease;
 }
 
 /* TL;DR / Summary Text */

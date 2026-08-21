@@ -13,34 +13,21 @@
       <link>http://localhost:1313/posts/first-post/</link>
       <pubDate>Mon, 27 Apr 2026 07:59:32 -0400</pubDate>
       <guid>http://localhost:1313/posts/first-post/</guid>
-      <description>&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Git installed&lt;/li&gt;
-&lt;li&gt;GitHub account&lt;/li&gt;
-&lt;li&gt;Cloudflare account (free)&lt;/li&gt;
-&lt;li&gt;Homebrew (Mac) or winget (Windows)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;step-1-install-hugo&#34;&gt;Step 1: Install Hugo&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Mac&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;brew install hugo
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Windows&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;winget install Hugo.Hugo.Extended
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Verify — note your version number, you&amp;#39;ll need it later&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo version
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
-&lt;h2 id=&#34;step-2-create-site&#34;&gt;Step 2: Create Site&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new site myblog
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd myblog
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git init
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
-&lt;h2 id=&#34;step-3-install-papermod-theme&#34;&gt;Step 3: Install PaperMod Theme&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git submodule add https://github.com/adityatelange/hugo-PaperMod themes/PaperMod
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
-&lt;h2 id=&#34;step-4-configure-hugotoml&#34;&gt;Step 4: Configure hugo.toml&lt;/h2&gt;
-&lt;p&gt;Open &lt;code&gt;hugo.toml&lt;/code&gt; in your editor and replace contents with:&lt;/p&gt;</description>
+      <description>Step by step guide to deploying a Hugo blog on Cloudflare Pages for free.</description>
+    </item>
+    <item>
+      <title>Second post</title>
+      <link>http://localhost:1313/posts/second-post/</link>
+      <pubDate>Mon, 27 Apr 2026 07:59:32 -0400</pubDate>
+      <guid>http://localhost:1313/posts/second-post/</guid>
+      <description>Step by step guide to deploying a Hugo blog on Cloudflare Pages for free.</description>
+    </item>
+    <item>
+      <title>Third post</title>
+      <link>http://localhost:1313/posts/third-post/</link>
+      <pubDate>Mon, 27 Apr 2026 07:59:32 -0400</pubDate>
+      <guid>http://localhost:1313/posts/third-post/</guid>
+      <description>Step by step guide to deploying a Hugo blog on Cloudflare Pages for free.</description>
     </item>
   </channel>
 </rss>

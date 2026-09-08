@@ -8,8 +8,6 @@ theme = 'diary'
   category = "categories"
 
 [params]
-  subtitle = "Kuldeep Singh"
-
   [params.author]
     name = "Kuldeep Singh"
     email = ""

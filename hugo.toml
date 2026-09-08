@@ -1,41 +1,72 @@
 baseURL = 'https://koolsing.pages.dev'
 locale = 'en-us'
 title = 'Kuldeep Singh'
-theme = 'diary'
+theme = 'ink-free'
+paginate = 5
 
-[taxonomies]
-  tag = "tags"
-  category = "categories"
+[permalinks]
+  posts = "/:year/:month/:title"
 
 [params]
-  [params.author]
-    name = "Kuldeep Singh"
-    email = ""
+  # Optional 64x64 avatar image.
+  #avatar = ""
 
-  description = "Kuldeep Singh"
-  googleAnalytics = ""
-  enableOpenGraph = true
-  enableTwitterCards = true
-  enableGitalk = false
-  enableGiscus = false
+  featherIconsCDN = false
+  mermaidCDN = "https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs"
+
+  enableUmami = false
+
+  # Site color - dark/light/auto
+  mode = "auto"
+
+  toc = "both"
+  enableTocTrunate = true
+
+  maxTags = 7
+  wpm = 250
+
+  statisticsEnabled = false
 
   # The Browser Tab Icon configuration
   [params.assets]
     favicon = "/blog-icon.PNG"
 
 [[menu.main]]
-  url = "/posts"
-  name = "Archive"
+  name = "Home"
+  url = "/"
   weight = 1
+
 [[menu.main]]
-  url = "/categories"
-  name = "Categories"
+  name = "All posts"
+  url = "/posts"
   weight = 2
+
 [[menu.main]]
+  name = "Tags & Stats"
   url = "/tags"
-  name = "Tags"
   weight = 3
-[[menu.main]]
+
+[[params.social]]
+  name = "RSS"
+  icon = "rss"
   url = "/index.xml"
-  name = "RSS Feed"
-  weight = 4
+
+[taxonomies]
+  tag = "tags"
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = true
+    style = "github"
+    tabWidth = 4
+
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = true
+    startLevel = 2

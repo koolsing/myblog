@@ -8,7 +8,7 @@ title = 'Study methods used by programmers '
 
 You can follow this highly actionable, two-part program:
 
-### **Prerequisites**
+## **Prerequisites**
 
 *   **Know the Basics:** Ensure you understand fundamental concepts: variables, loops, conditionals, and functions.
 *   **Narrow Your Focus:** Pick one software development stack (e.g., front-end, back-end, or mobile).
@@ -16,7 +16,7 @@ You can follow this highly actionable, two-part program:
 
 ---
 
-### **Step 1: Do 50 Small Projects (Phase One)**
+## **Step 1: Do 50 Small Projects (Phase One)**
 
 *   **The Goal:** Complete 50 tiny projects that require less than 100 lines of unique code (e.g., a temperature converter or a palindrome checker).
 *   **Question Driven Development (QDD):** Instead of following a guide, break the project into small questions and Google your way through individual hurdles (e.g., "how to reverse a string in JS").
@@ -24,7 +24,7 @@ You can follow this highly actionable, two-part program:
 
 ---
 
-### **Step 2: Clone 10 Existing Websites (Phase Two)**
+## **Step 2: Clone 10 Existing Websites (Phase Two)**
 
 *   **The Goal:** Replicate 10 websites that you find interesting.
 *   **Beat Procrastination:** Replicating existing layouts removes the need to worry about original design or functionality, preventing you from stalling.
@@ -33,7 +33,7 @@ You can follow this highly actionable, two-part program:
 
 ---
 
-### **Step 3: Establish the "Learn then Build" Rule**
+## **Step 3: Establish the "Learn then Build" Rule**
 
 *   **Build Immediately:** Once you return to tutorials, always write **three tiny, crappy projects** using the specific content you learned at the end of each section (e.g., building three forms after a section on forms and inputs).
 
@@ -45,25 +45,25 @@ You can follow this highly actionable, two-part program:
 
 Using the **DSSS framework**, execute these four steps in order:
 
-### **1. Deconstruct the Skill**
+## **1. Deconstruct the Skill**
 
 Break your broad, ambiguous goal (such as "learning to swim" or "learning Japanese") down into its smallest, individual constituent parts. 
 
 *   **Action:** If you don't know where to start, **consult an expert** (even a world-class talent or coach via a quick zoom call) to help you map out all the different components of the skill.
 
-### **2. Select the High-Impact 20% (Pareto's Law)**
+## **2. Select the High-Impact 20% (Pareto's Law)**
 
 Identify and isolate the 20% of the material that will give you 80% of the results you want.
 
 *   **Action:** Ignore the noise and find high-yield materials. For instance, instead of trying to learn hundreds of thousands of words in a new language, **focus only on learning a frequency list of the 1,500 most common words** to reach conversational fluency quickly.
 
-### **3. Sequence the Practice Order**
+## **3. Sequence the Practice Order**
 
 Arrange your selected components into a logical, highly effective order of practice, determining exactly what you must master first.
 
 *   **Action:** Do not try to learn complex steps all at once. For example, if learning to swim, **practice getting comfortable putting your head underwater** before you ever worry about breathing techniques.
 
-### **4. Set Consequences (Stakes)**
+## **4. Set Consequences (Stakes)**
 
 Create immediate incentives or consequences to force behavior change and ensure you follow through on your commitments.
 

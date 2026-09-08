@@ -1,6 +1,6 @@
 +++
 date = '2026-09-07T23:27:52-04:00'
-draft = true
+draft = false
 title = 'Study methods used by programmers '
 +++
 

@@ -19,3 +19,15 @@
 .toc {
     font-size: 0.9em;
 }
+
+.toc,
+.toc a,
+.section-nav,
+.section-nav a {
+    font-style: italic;
+}
+
+.toc strong,
+.section-nav strong {
+    font-weight: normal;
+}

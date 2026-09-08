@@ -8,6 +8,8 @@ paginate = 5
   posts = "/:year/:month/:title"
 
 [params]
+  customCSS = "css/custom.css"
+
   # Optional 64x64 avatar image.
   #avatar = ""
 

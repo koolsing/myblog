@@ -1,0 +1,21 @@
+/* Table of contents: no bullets, smaller text */
+.toc ul,
+.section-nav ul {
+    list-style: none;
+    padding-left: 1em;
+    margin: 0;
+}
+
+.toc > ul,
+.section-nav > ul {
+    padding-left: 0;
+}
+
+.toc li::marker,
+.section-nav li::marker {
+    content: "";
+}
+
+.toc {
+    font-size: 0.9em;
+}

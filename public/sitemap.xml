@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/first-post/</loc>
-    <lastmod>2026-04-27T07:59:32-04:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-04-27T07:59:32-04:00</lastmod>
+    <lastmod>2026-09-07T23:27:52-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2026-09-07T23:27:52-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/study_methods_used_by_programmers/</loc>
+    <lastmod>2026-09-07T23:27:52-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/first-post/</loc>
     <lastmod>2026-04-27T07:59:32-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
